@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub Finder</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+      <h1 class="text-center text-white mt-5">Search GitHub Users</h1>
+      <p class="text-center lead text-white">
+        Enter a username to fetch a user profile & repos
+      </p>
+      <form id="form" class="mb-4">
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="search"
+                placeholder="Github Username..."
+              />
+              <button
+                class="btn btn-outline-primary"
+                type="submit"
+                id="btnSubmit"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <br />
+      <br />
+
+      <div class="bg-light rounded mx-auto" id="profile"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
